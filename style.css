@@ -1,5 +1,5 @@
 :root{
-    --pink:#e84393;
+    --pink:#ff85c8;
 }
 *{
     margin: 0;
@@ -27,7 +27,7 @@ section{
 .heading{
     text-align: center;
     font-size: 4rem;
-    color: #0b0b0b;
+    color: #000000;
     padding: 1rem;
     margin: 2rem 0;
     background: rgba(255, 51, 153, .05);
@@ -48,7 +48,7 @@ section{
     font-size: 1.7rem;
 }
 .btn:hover{
-    background: var(--blue);
+    background: var(--pink);
 }
 header{
     position: fixed;
@@ -98,7 +98,7 @@ header #toggler{
 
 header .fa-bars{
     font-size: 3rem;
-    color: #333;
+    color: #000000;
     border-radius: .5rem;
     padding: .5rem 1.5rem;
     cursor: pointer;

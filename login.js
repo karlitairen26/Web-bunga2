@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
       // For demonstration, we'll use a simple check
       if (username === 'demo' && password === 'password') {
         alert('Login successful!');
-        window.location.href = 'index.html'; // Redirect to next page
+        window.location.href = 'utama.html'; // Redirect to next page
       } else {
         alert('username atau sandi anda salah. Please try again.');
       }
